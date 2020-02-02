@@ -64,3 +64,21 @@ li {
 .btn:hover{
 	background-color: #afca33;
 }
+
+@media  (max-width: 770px) {
+
+.jumbotron {
+
+	margin: 0px auto;
+	
+}
+.navbar {
+
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 25px;
+	background-color: #f9f9f9;
+	position: fixed;
+	transition: 0.4s;
+	z-index:99;
+}
