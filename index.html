@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hope Healing Happiness</title>
+	<title>Hope + Healing + Happiness</title>
 	<!--
 Background lake image Image by <a href="https://pixabay.com/users/Atlantios-4957810/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2845930">Antonios Ntoumas</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2845930">Pixabay</a>
-
-
     -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	  <!-- Bootstrap CSS -->
+	 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Raleway:400,800&display=swap" rel="stylesheet">
+    <!--CSS style sheet-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
@@ -91,10 +92,13 @@ inquiry, together, we discover where you really are.</p>
 <img srd="https://imageprocessor.digital.vistaprint.com/width/300/background/white/http://uploads.documents.cimpress.io/v1/uploads/47d95c93-00aa-4df4-9b13-c333cdfda50f~110/original?tenant=vbu-digital">
    <script>
     // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+if (document.documentElement.clientWidth > 640 ) {
+    $("nav").sticky({ topSpacing: 0, className: 'sticky', center: true });
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 90) {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 70) {
     document.getElementById("navbarone").style.padding = "0px 0px";
      document.getElementById("navbarone").style.margin = "0px 0px";
     document.getElementById("logo").style.fontSize = "25px";
@@ -104,7 +108,7 @@ function scrollFunction() {
     document.getElementById("logo").style.fontSize = "35px";
   }
 }
-
+}
 
 
 
