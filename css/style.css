@@ -1,4 +1,4 @@
-
+ 
 body {
 
 	margin:0 auto;
@@ -6,6 +6,13 @@ body {
 	font-family: 'Bebas Neue', cursive;
 	font-family: 'Raleway', sans-serif;
 	background-color: #f9f9f9;
+	color: #20362d;
+
+}
+
+h1,h2{
+	color: #4e6d2e;
+	font-family: 'Bebas Neue', cursive;
 }
 
 li {
@@ -13,21 +20,47 @@ li {
 }
 
 
-/* Position the navbar container inside the image */
-
-/* The navbar */
-
-.top-container{
-	
-	margin: 100px auto;
-	position: absolute;
+.bg img {
 	width: 100%;
-
+	height: auto;
 }
+
 .navbar {
-	position: absolute;
-	padding-top: 25px;
-	padding-bottom: 25px;
+
 	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 25px;
 	background-color: #f9f9f9;
+	position: fixed;
+	transition: 0.4s;
+	z-index:99;
+}
+
+#navbarone {
+	margin-top: 100px;
+	overflow: hidden;
+	
+}
+
+.container{
+	display: block;
+	position: relative;
+	margin-top:700px;
+}
+
+
+
+.jumbotron {
+	position: relative;
+	width: 50%;
+	margin: -150px auto;
+	background-color: #ffffff;
+	text-align: center;
+}
+.btn{
+	background-color: #4e6d2e;
+	color: white;
+}
+.btn:hover{
+	background-color: #afca33;
 }
