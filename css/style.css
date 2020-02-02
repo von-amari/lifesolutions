@@ -89,6 +89,7 @@ li {
 
 }
 .bg img {
+	margin-top: 20px;
 	width: 100%;
 	height: auto;
 	position: relative;
