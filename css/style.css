@@ -73,7 +73,7 @@ li {
 	
 }
 .navbar {
-
+	top: 0;
 	width: 100%;
 	padding-top: 10px;
 	padding-bottom: 15px;
