@@ -96,7 +96,7 @@ inquiry, together, we discover where you really are.</p>
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 70) {
+  if (document.documentElement.clientWidth < 1040 && document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     document.getElementById("navbarone").style.padding = "0px 0px";
      document.getElementById("navbarone").style.margin = "0px 0px";
     document.getElementById("logo").style.fontSize = "25px";
