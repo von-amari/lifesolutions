@@ -28,8 +28,8 @@ li {
 .navbar {
 
 	width: 100%;
-	padding-top: 30px;
-	padding-bottom: 25px;
+	padding-top: 20px;
+	padding-bottom: 15px;
 	background-color: #f9f9f9;
 	position: fixed;
 	transition: 0.4s;
@@ -37,7 +37,7 @@ li {
 }
 
 #navbarone {
-	margin-top: 75px;
+	margin-top: 0px;
 	overflow: hidden;
 	
 }
@@ -70,22 +70,28 @@ li {
 .jumbotron {
 
 	margin: 10px auto;
+	width: 75%;
 	
 }
 .navbar {
 	top: 0;
 	width: 100%;
-	padding-top: 10px;
-	padding-bottom: 15px;
+	padding-top: 0px;
+	padding-bottom: 5px;
 	background-color: #f9f9f9;
 	position: fixed;
 	transition: 0.4s;
 	z-index:99;
 }
 #navbarone {
-	top: 0;
 	margin-top: 0px;
 	overflow: hidden;
+
+}
+.bg img {
+	width: 100%;
+	height: auto;
+	position: relative;
 	
 }
 }
