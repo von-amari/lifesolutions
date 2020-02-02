@@ -22,7 +22,7 @@ li {
 
 .bg img {
 	width: 100%;
-	height: auto;
+	height: 50%;
 }
 
 .navbar {
@@ -56,6 +56,10 @@ li {
 	margin: -150px auto;
 	background-color: #ffffff;
 	text-align: center;
+
+}
+.jumbotron p{
+	font-size: 1em;
 }
 .btn{
 	background-color: #4e6d2e;
@@ -89,7 +93,7 @@ li {
 
 }
 .bg img {
-	padding-top: 120px;
+	margin-top: 20px;
 	width: 100%;
 	height: auto;
 	position: relative;
