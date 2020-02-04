@@ -73,8 +73,9 @@ li {
 
 .jumbotron {
 
-	margin: 10px auto;
+	margin: -110px auto;
 	width: 75%;
+	background: rgba(255, 255, 255, 0.7);
 	
 }
 .navbar {
@@ -82,11 +83,16 @@ li {
 	width: 100%;
 	padding-top: 0px;
 	padding-bottom: 5px;
+	text-align: center;
 	background-color: #f9f9f9;
 	position: fixed;
 	transition: 0.4s;
 	z-index:99;
 }
+.navbar-toggler{
+	margin: auto;
+}
+
 #navbarone {
 	margin-top: 0px;
 	overflow: hidden;
@@ -94,12 +100,15 @@ li {
 }
 img.bg {
 	margin-top: 50px;
-	
-	min-height: 100vh;
+
+	height: 50vh;
 	position: relative;
+
+	
 }
 .nav-item {
 	line-height: 2;
 	font-size: 1.2em;
 }
+
 }
