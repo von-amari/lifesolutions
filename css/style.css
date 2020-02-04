@@ -3,76 +3,74 @@ body {
 
 	margin:0 auto;
 	padding:0;
-	font-family: 'Bebas Neue', cursive;
 	font-family: 'Raleway', sans-serif;
 	background-color: #f9f9f9;
 	color: #20362d;
 
 }
 
-h1,h2{
+h1,h2, h3{
 	color: #4e6d2e;
 	font-family: 'Bebas Neue', cursive;
 }
 
-li {
+p,li {
 	font-family: 'Raleway', sans-serif;
+	line-height: 2;
 }
 
 
 .bg img {
 	width: 100%;
 	height: 50%;
-}
-
-.navbar {
-
-	width: 100%;
-	padding-top: 20px;
-	padding-bottom: 15px;
-	background-color: #f9f9f9;
-	position: fixed;
-	
-	z-index:99;
-}
-
-#navbarone {
-	margin-top: 0px;
-	overflow: hidden;
-	
-}
-
-.container{
-	display: block;
 	position: relative;
-	margin-top:700px;
 }
 
+#navbar { 
+  
+	background-color: #f9f9f9;
+    overflow: hidden;
+ 	padding: 20px 15px; /* Large padding which will shrink on scroll (using JS) */
+  	transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  	position: fixed; /* Sticky/fixed navbar */
+ 	width: 100%;
+  	top: 0; /* At the top */
+  	z-index: 99;
+}
+
+.container-fluid{
+	position: relative;
+	margin: 40px auto 100px auto;
+	width: 50%;
+	text-align: center;
+	display: block;
+}
 
 
 .jumbotron {
 	position: relative;
-	width: 50%;
-	margin: -250px auto;
-	background-color: #ffffff;
+	width: 55%;
+	padding: 20px 20px 20px 20px;
+	margin: 50px auto 50px auto;
+	background-color: rgba(255, 255, 255, 0.1);
 	text-align: center;
 
 }
 .jumbotron p{
 	font-size: 1em;
 }
-.btn{
+.btn {
 	background-color: #4e6d2e;
 	color: white;
 }
-.btn:hover{
+.btn:hover {
 	background-color: #afca33;
 }
 
 @media  (max-width: 770px) {
 
 .jumbotron {
-
+	padding: 40px;
 	margin: -110px auto;
 	width: 75%;
 	background: rgba(255, 255, 255, 0.7);
@@ -86,21 +84,20 @@ li {
 	text-align: center;
 	background-color: #f9f9f9;
 	position: fixed;
-	transition: 0.4s;
+	
 	z-index:99;
 }
 .navbar-toggler{
 	margin: auto;
 }
 
-#navbarone {
+#navbar {
 	margin-top: 0px;
 	overflow: hidden;
 
 }
 img.bg {
-	
-
+	margin-top: 50px;
 	height: 50vh;
 	position: relative;
 
@@ -110,5 +107,11 @@ img.bg {
 	line-height: 2;
 	font-size: 1.2em;
 }
+.container{
+
+	margin-top: 200px;
+}
+
+	
 
 }
