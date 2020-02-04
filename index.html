@@ -17,15 +17,13 @@ Background lake image Image by <a href="https://pixabay.com/users/Atlantios-4957
 </head>
 <body>
    
-
-
 <!--Bootstrap Navigation Bar -->
-
-<nav id="navbarone"class="navbar navbar-expand-lg navbar-light bg-light" >
+<header>
+<div id="navbar" class="navbar navbar-expand-lg navbar-light navbar-toggleable-md" data-toggle="collapse" data-target="#navbarSupportedContent">
     <a class="navbar-brand" href="#">
         <img id="logo" src="images/logo.png" width="300" height="80" alt="">
     </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -38,13 +36,16 @@ Background lake image Image by <a href="https://pixabay.com/users/Atlantios-4957
         <li class="nav-item pl-5 pr-5">Forms</li>
     </ul>
   </div>
+</div>
 </nav>
+</header>
 
 
 
 <!--Background image-->
-<img src="images/lake.jpg" class="img-fluid bg" alt="Responsive image">
-  
+
+<img src="images/lake.jpg" class="img-fluid bg" alt="Lake image">
+
  
 <!--Bootstrap Jumbotron-->
 <div class="jumbotron">
@@ -58,8 +59,13 @@ inquiry, together, we discover where you really are.</p>
 </div>
 
 <!--Body Content-->
-<div class="body-content">
-
+<!-- <div class="container-fluid">
+  <h3>Do You Rememember The Moment You Lost Yourself?</h3>
+    <p>Life has the sneakiest way of hijacking our thoughts, hopes,
+    dreams, and best intentions. Coupled with our experiences, these
+    things make us who we are.</p> 
+</div>
+ -->
  </div>   
     <div class="container">
     <!--Bootstrap Carousel-->
@@ -89,30 +95,42 @@ inquiry, together, we discover where you really are.</p>
           </div>
         </div>
     </div>
-<img srd="https://imageprocessor.digital.vistaprint.com/width/300/background/white/http://uploads.documents.cimpress.io/v1/uploads/47d95c93-00aa-4df4-9b13-c333cdfda50f~110/original?tenant=vbu-digital">
+<div class="container-fluid">
+    <h2>Life Solutions Can Help You Find Your Way Back</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                here is some text
+            </div>
+
+            <div class="col-4">
+                here is some text
+            </div>
+
+            <div class="col-4">
+                here is some text
+            </div>
+       </div>
+    </div>
    <script>
     // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-/*
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.documentElement.clientWidth < 1040 && document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("navbarone").style.padding = "0px 0px";
-     document.getElementById("navbarone").style.margin = "0px 0px";
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.padding = "0px 0px";
     document.getElementById("logo").style.fontSize = "25px";
   } else {
-    document.getElementById("navbarone").style.padding = "30px 10px";
-      document.getElementById("navbarone").style.margin = "100px 0px";
+    document.getElementById("navbar").style.padding = "20px 15px";
     document.getElementById("logo").style.fontSize = "35px";
   }
 }
-
-*/
 
 
     </script>
   <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
