@@ -9,7 +9,7 @@ body {
 
 }
 
-h1,h2, h3{
+h1,h2{
 	color: #4e6d2e;
 	font-family: 'Bebas Neue', cursive;
 }
@@ -40,10 +40,27 @@ p,li {
 
 .container-fluid{
 	position: relative;
-	margin: 40px auto 100px auto;
+	margin: 40px auto 50px auto;
 	width: 50%;
 	text-align: center;
 	display: block;
+}
+.middle-container h2{
+	padding-bottom: 20px;
+}
+.col-lg-4{
+	padding-bottom: 40px;
+}
+.col-lg-4 h3{
+	color:#20362d;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 400;
+
+}
+.col-lg-4 {
+	text-align: center;
 }
 
 
@@ -51,30 +68,69 @@ p,li {
 	position: relative;
 	width: 55%;
 	padding: 20px 20px 20px 20px;
-	margin: 50px auto 50px auto;
-	background-color: rgba(255, 255, 255, 0.1);
+	margin: -370px auto 220px auto;
+	background: none;
 	text-align: center;
-
 }
-.jumbotron p{
-	font-size: 1em;
+
+.jumbotron h1{
+	font-size: 4em;
+	color:white;
+	font-weight:400;
+	font-family: 'Raleway', sans-serif;
+	padding-bottom: 30px;
+	text-shadow: 1px 1px 2px black; 
 }
 .btn {
 	background-color: #4e6d2e;
-	color: white;
+	color: white ;
 }
 .btn:hover {
 	background-color: #afca33;
+}
+.col-lg-12{
+	position: relative;
+	margin: 60px auto 20px auto;
+	width: 75%;
+	text-align: center;
+	display: block;
+}
+.bottom-img{
+	width:100%;
+	margin: auto;
+	position: absolute;
+	height: auto;
+}
+
+#bottom p{
+	color: white !important;
+	text-shadow: 1px 1px 2px black ; 
+	font-size: 1.5rem !important;
+}
+#bottom h2 {
+	color: white;
+}
+#bottom{
+	width: 75%;
 }
 
 @media  (max-width: 770px) {
 
 .jumbotron {
+
 	padding: 40px;
-	margin: -110px auto;
-	width: 75%;
-	background: rgba(255, 255, 255, 0.7);
-	
+	margin: -220px auto;
+	width: 100%;
+	background: none;	
+	padding-bottom: 50px;
+	position: relative;
+}
+.jumbotron h1{
+	font-size:2rem;
+}
+.jumbotron .btn{
+	font-size: 1rem;
+
 }
 .navbar {
 	top: 0;
@@ -109,9 +165,22 @@ img.bg {
 }
 .container{
 
-	margin-top: 200px;
+	margin-top: 50px;
+}
+.container-fluid{
+	position: relative;
+	margin: 280px auto 25px auto;
+	width: 75%;
+	text-align: center;
+	display: block;
+}
+.col-lg-12{
+	position: relative;
+	margin: 0px auto 0px auto;
+	width: 75%;
+	text-align: center;
+	display: block;
 }
 
-	
 
 }
