@@ -113,6 +113,11 @@ p,li {
 #bottom{
 	width: 75%;
 }
+#footer{
+	display: inline-block;
+	margin: 170px 50px 10px 10px;
+}
+
 
 @media  (max-width: 770px) {
 
@@ -181,6 +186,11 @@ img.bg {
 	text-align: center;
 	display: block;
 }
-
+.col-lg-4{
+	position: relative;
+	margin: 0px auto 0px auto;
+	width: 75%;
+	text-align: center;
+	display: block;
 
 }
