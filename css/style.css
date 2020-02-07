@@ -109,15 +109,30 @@ p,li {
 }
 #bottom h2 {
 	color: white;
+	text-shadow: 1px 1px 2px black;
+	color: #4e6d2e;
 }
 #bottom{
 	width: 75%;
 }
 #footer{
-	display: inline-block;
+	position: relative;
 	margin: 170px 50px 10px 10px;
 }
+/*Screen size 1020-770*/
 
+@media (max-width: 1020px){
+	#bottom.container-fluid{
+		padding-top: 10%;
+	}
+	#bottom p{
+		font-size: 4rem;
+		
+	}
+}
+
+
+/*s Screen size 770*/
 
 @media  (max-width: 770px) {
 
@@ -192,5 +207,21 @@ img.bg {
 	width: 75%;
 	text-align: center;
 	display: block;
-
 }
+#footer.container-fluid{
+	margin: auto;
+}
+.fab{
+	font-size: 2rem;
+	padding: 5%;
+}
+.psychology-today {
+	width: 60%;
+	padding: 10% 10% 15% 0%;
+}
+
+@media (max-width: 500px) {
+
+	}
+}
+	
