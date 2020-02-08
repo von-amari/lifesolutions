@@ -38,6 +38,7 @@ p,li {
   	z-index: 99;
 }
 
+
 .container-fluid{
 	position: relative;
 	margin: 40px auto 50px auto;
@@ -103,31 +104,46 @@ p,li {
 }
 
 #bottom p{
-	color: white !important;
+	color: white;
 	text-shadow: 1px 1px 2px black ; 
-	font-size: 1.5rem !important;
+	font-size: 1.5rem;
 }
 #bottom h2 {
 	color: white;
 	text-shadow: 1px 1px 2px black;
 	color: #4e6d2e;
 }
-#bottom{
-	width: 75%;
+#bottom.container-fluid{
+	padding-top: 10%;
 }
 #footer{
 	position: relative;
-	margin: 170px 50px 10px 10px;
+	margin: auto;
+}
+
+#footer.container-fluid{
+	margin: auto;
+}
+.fab{
+	font-size: 2rem;
+	padding: 5%;
+}
+.psychology-today {
+	width: 40%;
+	padding: 10% 10% 15% 0%;
 }
 /*Screen size 1020-770*/
 
 @media (max-width: 1020px){
 	#bottom.container-fluid{
-		padding-top: 10%;
+		padding-top: 1%;
 	}
 	#bottom p{
-		font-size: 4rem;
-		
+		font-size: 1.2rem;
+	}
+	li.nav-item {
+		padding-left: 1%;
+		padding-right:1%;
 	}
 }
 
@@ -189,7 +205,7 @@ img.bg {
 }
 .container-fluid{
 	position: relative;
-	margin: 280px auto 25px auto;
+	margin: 70% auto 10% auto;
 	width: 75%;
 	text-align: center;
 	display: block;
@@ -216,12 +232,36 @@ img.bg {
 	padding: 5%;
 }
 .psychology-today {
-	width: 60%;
-	padding: 10% 10% 15% 0%;
+	width: 100%;
+	padding: 10% 10% 15% 10%;
 }
 
 @media (max-width: 500px) {
 
 	}
+@media (max-width: 320px) {
+#logo{
+	width: 90%;
+	height: 90%;
 }
+img.img-fluid.bg{
+	margin-top: 30%;
+}
+
+.container-fluid h1{
+	font-size: 2rem;
+}
+#top.container-fluid{
+	margin: 5% auto 0 auto;
+	position: relative;
+}
+#bottom.container-fluid{
+	margin-top: 65%;
+}
+.psychology-today {
+	width: 100%;
+	padding: 10% 10% 15% 10%;
+}
+}
+
 	
