@@ -122,7 +122,7 @@ p,li {
 }
 
 #footer.container-fluid{
-	margin: auto;
+	margin: 1% auto;
 }
 .fab{
 	font-size: 2rem;
@@ -132,6 +132,23 @@ p,li {
 	width: 40%;
 	padding: 10% 10% 15% 0%;
 }
+@media (max-width: 1220px){
+	img.bg {
+	margin-top: 10%;
+	height: 70vh;
+	position: relative;
+	width: 100%;
+}
+.jumbotron {
+	position: relative;
+	width: 55%;
+	padding: 5%;
+	margin: -420px auto 220px auto;
+	background: none;
+	text-align: center;
+}
+}
+
 /*Screen size 1020-770*/
 
 @media (max-width: 1020px){
@@ -144,24 +161,41 @@ p,li {
 	li.nav-item {
 		padding: 0 10px 0 10px;
 	}
+	img.bg {
+	margin-top: 10%;
+	height: 70vh;
+	position: relative;
+	width: 100%;
 }
+	.jumbotron h1{
+	font-size:2.5rem;
+}
+.container-fluid{
+	position: relative;
+	margin: 0 auto 5% auto;
+	width: 50%;
+	text-align: center;
+	display: block;
+}
+}
+
 
 
 /*s Screen size 770*/
 
-@media  (max-width: 770px) {
+@media  (max-width: 720px) {
 
 .jumbotron {
 
 	padding: 40px;
-	margin: -220px auto;
+	margin: -250px auto;
 	width: 100%;
 	background: none;	
 	padding-bottom: 50px;
 	position: relative;
 }
 .jumbotron h1{
-	font-size:2rem;
+	font-size:2.5rem;
 }
 .jumbotron .btn{
 	font-size: 1rem;
@@ -189,7 +223,7 @@ p,li {
 }
 img.bg {
 	margin-top: 50px;
-	height: 50vh;
+	height: 70vh;
 	position: relative;
 
 	
@@ -232,16 +266,25 @@ img.bg {
 	padding: 5%;
 }
 .psychology-today {
-	width: 100%;
+	width: 50%;
 	padding: 10% 10% 15% 10%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 520px) {
 #top.container-fluid{
 	margin-top:70%;
 }
 .jumbotron {
 	margin: -230px auto;
+}
+.psychology-today {
+	width: 75%;
+	margin: 0% 10% 0 0%;
+}
+@media (max-width: 400px){
+.jumbotron {
+	margin: -220px auto;
+}
 }
 @media (max-width: 320px) {
 #logo{
