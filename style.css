@@ -155,11 +155,14 @@ p,li {
 	display: block;
 	margin: 10% auto;
 }
+}
+
 @media (min-width: 360px) {
 .psychology-today {
 	width: 65%;
 }
 }
+
 /*Media width 400*/
 @media (min-width: 400px) {
 .jumbotron{
@@ -170,6 +173,7 @@ p,li {
 	padding: 10% 10% 10% 10%;
 }
 }
+
 /*Media width 413 */
 @media (min-width: 413px) {
 .btn.btn-lg {
@@ -183,6 +187,7 @@ p,li {
 	margin-top: 10%;
 }
 }
+
 /*Media width 462*/
 @media (min-width: 462px) {
 
