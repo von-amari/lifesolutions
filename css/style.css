@@ -183,9 +183,15 @@ p,li {
 	position: relative;
 	width: 55%;
 	padding: 5%;
-	margin: -420px auto 220px auto;
+	margin: -320px auto 220px auto;
 	background: none;
 	text-align: center;
+}
+	img.bg {
+	margin-top: 10%;
+	height: 70vh;
+	position: relative;
+	width: 100%;
 }
 }
 
