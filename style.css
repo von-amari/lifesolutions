@@ -173,13 +173,14 @@ p,li {
 /*Media width 413 */
 @media (min-width: 413px) {
 .btn.btn-lg {
-	margin-top: 20%;
+        margin-top: 20%;
 }
 .psychology-today {
 	width: 75%;
 }
 .jumbotron h1 {
 	font-size: 1.9rem;
+	margin-top: 10%;
 }
 }
 /*Media width 462*/
