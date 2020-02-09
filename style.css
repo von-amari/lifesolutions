@@ -177,14 +177,13 @@ p,li {
 /*Media width 413 */
 @media (min-width: 413px) {
 .btn.btn-lg {
-        margin-top: 50%;
+	margin-top: 10%;
 }
 .psychology-today {
-	width: 65%;
+	width: 75%;
 }
 .jumbotron h1 {
 	font-size: 1.9rem;
-	margin-top: 10%;
 }
 }
 
@@ -200,6 +199,7 @@ p,li {
 	display: block;
 }
 }
+
 @media (min-width: 508px){
 .btn.btn-lg {
 	margin-top: 0%;
