@@ -178,7 +178,16 @@ p,li {
 	display: block;
 }
 }
-
+@media (max-width: 920px) {
+.jumbotron {
+	position: relative;
+	width: 55%;
+	padding: 5%;
+	margin: -420px auto 220px auto;
+	background: none;
+	text-align: center;
+}
+}
 
 
 /*s Screen size 770*/
