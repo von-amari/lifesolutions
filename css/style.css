@@ -1,4 +1,5 @@
- 
+@media (min-width: 320px) {
+
 body {
 
 	margin:0 auto;
@@ -18,77 +19,78 @@ p,li {
 	font-family: 'Raleway', sans-serif;
 	line-height: 2;
 }
-
-.bg img {
-	width: 100%;
-	position: relative;
+#logo{
+	width: 90%;
+	height: 90%;
+	padding-left: 12%;
 }
 
 #navbar { 
 	background-color: #f9f9f9;
     overflow: hidden;
- 	padding: 20px 15px; /* Large padding which will shrink on scroll (using JS) */
+ 	padding: 5px 5px; /* Large padding which will shrink on scroll (using JS) */
   	transition: 0.4s; /* Adds a transition effect when the padding is decreased */
   	position: fixed; /* Sticky/fixed navbar */
  	width: 100%;
   	top: 0; /* At the top */
   	z-index: 99;
 }
-
+.navbar-toggler{
+	margin: auto;
+}
 .nav-item {
 	padding: 0 25px 0 30px;
 	font-size: 1rem;
 }
-
-.container-fluid{
+.img-fluid.bg.lake {
+	width: 100%;
 	position: relative;
-	margin: 10% auto 25% auto;
-	width: 50%;
-	text-align: center;
-	display: block;
+	margin: 38% auto;
 }
-.middle-container h2{
-	padding-bottom: 20px;
-}
-.col-lg-4{
-	padding-bottom: 40px;
-}
-.col-lg-4 h3{
-	color:#20362d;
-	text-align: center;
-	font-family: 'Raleway', sans-serif;
-	font-size: 1.5rem;
-	font-weight: 400;
-
-}
-.col-lg-4 {
-	text-align: center;
-}
-
 .jumbotron {
 	position: relative;
 	width: 55%;
 	padding: 5%;
-	margin: -370px auto 220px auto;
+	margin: -80% auto 0% auto;
 	background: none;
 	text-align: center;
 }
 
 .jumbotron h1{
-	font-size: 4em;
+	font-size: 1.7em;
 	color:white;
 	font-weight:400;
 	font-family: 'Raleway', sans-serif;
 	padding-bottom: 30px;
-	text-shadow: 1px 1px 2px black; 
+	text-shadow: 1px 1px 2px black;
+	margin-bottom: 20%; 
 }
 .btn {
 	background-color: #4e6d2e;
 	color: white ;
+	font-size: 1rem;
 }
 .btn:hover {
 	background-color: #afca33;
 }
+
+#top.container-fluid{
+	position: relative;
+	margin: 10% auto 20% auto;
+	width: 75%;
+	text-align: center;
+}	
+#top.container-fluid h1{
+	font-size: 1.7rem;
+	margin-bottom: 10%;
+}
+
+.col-lg-4{
+	text-align: center;
+	width: 75%;
+	margin: 0% auto 10%;
+}
+
 .col-lg-12{
 	position: relative;
 	margin: 60px auto 20px auto;
@@ -96,6 +98,19 @@ p,li {
 	text-align: center;
 	display: block;
 }
+.col-lg-12 h2{
+	font-size: 1.7rem;
+	margin-bottom: 10%;
+}
+.col-lg-4 h3{
+	color:#20362d;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 400;
+	margin: 0% auto 10%;
+}
+
 .bottom-img{
 	width:100%;
 	margin: auto;
@@ -103,18 +118,20 @@ p,li {
 	height: auto;
 }
 
+#bottom.container-fluid{
+	padding-top: 60%;
+	text-align: center;
+	width: 75%;
+}
 #bottom p{
 	color: white;
 	text-shadow: 1px 1px 2px black ; 
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 }
 #bottom h2 {
 	color: white;
 	text-shadow: 1px 1px 2px black;
 	color: #4e6d2e;
-}
-#bottom.container-fluid{
-	padding-top: 10%;
 }
 #footer{
 	position: relative;
@@ -123,209 +140,14 @@ p,li {
 
 #footer.container-fluid{
 	margin: 1% auto;
+	text-align: center;
 }
 .fab{
 	font-size: 2rem;
 	padding: 5%;
 }
 .psychology-today {
-	width: 40%;
-	padding: 10% 10% 15% 0%;
-}
-@media (max-width: 1220px){
-	img.bg {
-	margin-top: 10%;
-	height: 70vh;
-	position: relative;
-	width: 100%;
-}
-.jumbotron {
-	position: relative;
-	width: 55%;
-	padding: 5%;
-	margin: -420px auto 220px auto;
-	background: none;
-	text-align: center;
-}
-}
-
-/*Screen size 1020-770*/
-
-@media (max-width: 1020px){
-	#bottom.container-fluid{
-		padding-top: 1%;
-	}
-	#bottom p{
-		font-size: 1.2rem;
-	}
-	li.nav-item {
-		padding: 0 10px 0 10px;
-	}
-	img.bg {
-	margin-top: 10%;
-	height: 70vh;
-	position: relative;
-	width: 100%;
-}
-	.jumbotron h1{
-	font-size:2.5rem;
-}
-.container-fluid{
-	position: relative;
-	margin: 0 auto 5% auto;
-	width: 50%;
-	text-align: center;
-	display: block;
-}
-}
-@media (max-width: 920px) {
-.jumbotron {
-	position: relative;
-	width: 55%;
-	padding: 5%;
-	margin: -220px auto 220px auto;
-	background: none;
-	text-align: center;
-}
-	img.bg {
-	margin-top: 10%;
-	height: 70vh;
-	position: relative;
-	width: 100%;
-}
-	.navbar {
-	padding-top: 0px;
-	padding-bottom: 0px;
-}
-}
-
-
-/*s Screen size 770*/
-
-@media  (max-width: 720px) {
-
-.jumbotron {
-
-	padding: 40px;
-	margin: -250px auto;
-	width: 100%;
-	background: none;	
-	padding-bottom: 50px;
-	position: relative;
-}
-.jumbotron h1{
-	font-size:2.5rem;
-}
-.jumbotron .btn{
-	font-size: 1rem;
-
-}
-.navbar {
-	top: 0;
-	width: 100%;
-	padding-top: 0px;
-	padding-bottom: 5px;
-	text-align: center;
-	background-color: #f9f9f9;
-	position: fixed;
-	
-	z-index:99;
-}
-.navbar-toggler{
-	margin: auto;
-}
-
-#navbar {
-	margin-top: 0px;
-	overflow: hidden;
-
-}
-img.bg {
-	margin-top: 50px;
-	height: 50vh;
-	position: relative;
-
-	
-}
-.nav-item {
-	line-height: 2;
-	font-size: 1.2em;
-}
-.container{
-
-	margin-top: 50px;
-}
-.container-fluid{
-	position: relative;
-	margin: 60% auto 10% auto;
-	width: 75%;
-	text-align: center;
-	display: block;
-
-}
-.col-lg-12{
-	position: relative;
-	margin: 0px auto 0px auto;
-	width: 75%;
-	text-align: center;
-	display: block;
-}
-.col-lg-4{
-	position: relative;
-	margin: 0px auto 0px auto;
-	width: 75%;
-	text-align: center;
-	display: block;
-}
-#footer.container-fluid{
-	margin: auto;
-}
-.fab{
-	font-size: 2rem;
-	padding: 5%;
-}
-.psychology-today {
-	width: 50%;
-	padding: 10% 10% 15% 10%;
-}
-
-@media (max-width: 520px) {
-#top.container-fluid{
-	margin-top:70%;
-}
-.jumbotron {
-	margin: -230px auto;
-}
-.psychology-today {
-	width: 75%;
-	margin: 0% 10% 0 0%;
-}
-@media (max-width: 400px){
-.jumbotron {
-	margin: -220px auto;
-}
-}
-@media (max-width: 320px) {
-#logo{
-	width: 90%;
-	height: 90%;
-}
-img.img-fluid.bg{
-	margin-top: 30%;
-}
-#top.container-fluid h1{
-	font-size: 2rem;
-}
-#top.container-fluid{
-	margin-top: 90%;
-}
-#bottom.container-fluid{
-	margin-top: 60%;
-}
-.psychology-today {
 	width: 100%;
 	padding: 10% 10% 15% 10%;
 }
 }
-
-	
