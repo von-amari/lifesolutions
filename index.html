@@ -15,25 +15,25 @@
     <!-- Font Awesome -->
 <script src="https://kit.fontawesome.com/e09d4ac963.js" crossorigin="anonymous"></script>
     <!--CSS style sheet-->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
 
 </head>
 <body>
    
 <!--Bootstrap Navigation Bar -->
 <header>
-  <img id="logo" class="img-fluid" src="images/logo.png" width="300" height="80">
-<div id="header" class="header navbar navbar-expand-lg navbar-light navbar-toggleable-md" data-toggle="collapse" data-target="#navbarSupportedContent">
-   <!--  <a class="navbar-brand" href="#">
+ <!--  <img id="logo" class="img-fluid" src="images/logo.png" width="300" height="80"> -->
+<div id="navbar" class=" navbar navbar-expand-lg navbar-light navbar-toggleable-lg" data-toggle="collapse" data-target="#navbarSupportedContent">
+    <a class="navbar-brand" href="#">
         <img id="logo" src="images/logo.png" width="300" height="80" alt="">
-    </a> -->
+    </a>
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
         <li class="nav-item active"><a href="#" class="text-muted">Home</a></li>
-        <li class="nav-item "><a href="#" class="text-muted">Meet Your Therapist </a></li>
+        <li class="nav-item "><a href="#" class="text-muted">Your Therapist </a></li>
         <li class="nav-item "><a href="#" class="text-muted">Services</a></li>
         <li class="nav-item "><a href="#" class="text-muted">Connect</a></li>
         <li class="nav-item "><a href="#" class="text-muted">Client Portal</a></li>
@@ -166,15 +166,7 @@ inquiry, together, we discover where you really are.</p>
       <p>&copy 2020 JG. Website by Yvonne King</p></span>
   </div>
 </footer>
-<!-- footer 
-    <div class="container-fluid" id="footer">
-  
-      <img src="images/today.png" class="psychology-today img-footer" alt="Psychology Today Verified">
-      <i class="fab fa-twitter fa-5x img-footer"></i>
-      <i class="fab fa-instagram fa-5x img-footer"></i>
-    <p>&copy 2020 JG. Website by Yvonne King</p>
-    </div>
-    -->
+   
    <script>
     // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
 
@@ -182,40 +174,41 @@ inquiry, together, we discover where you really are.</p>
 
 // if (document.documentElement.clientWidth > 900) {
   // scripts
-//  window.onscroll = function() {scrollFunction()};
+ window.onscroll = function() {scrollFunction()};
 
-// function scrollFunction() {
-//   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     
-//     document.getElementById("header").style.padding = "0px 0px";
-//     document.getElementById("logo").style.fontSize = "25px";
-//   } else {
-    
-//     document.getElementById("header").style.padding = "15px 15px";
-//     document.getElementById("logo").style.fontSize = "35px";
-//   }
-// }
-// /*Add your javascript for screens wider than or equal to 768 here*/
-// }
-if (document.documentElement.clientWidth < 900){
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
-
-// Get the header
-var header = document.getElementById("header");
-
-// Get the offset position of the navbar
-var sticky = header.offsetTop;
-
-// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
+    document.getElementById("navbar").style.padding = "0px 0px";
+    document.getElementById("logo").style.display = "none";
   } else {
-    header.classList.remove("sticky");
+    
+    document.getElementById("navbar").style.padding = "15px 15px";
+    document.getElementById("logo").style.display = "inline";
   }
 }
-}
+/*Add your javascript for screens wider than or equal to 768 here*/
+
+
+
+// // When the user scrolls the page, execute myFunction
+// window.onscroll = function() {myFunction()};
+
+// // Get the header
+// var header = document.getElementById("header");
+
+// // Get the offset position of the navbar
+// var sticky = header.offsetTop;
+
+// // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+// function myFunction() {
+//   if (window.pageYOffset > sticky) {
+//     navbar.classList.add("sticky");
+//   } else {
+//     navbar.classList.remove("sticky");
+//   }
+// }
+
 
 
     </script>
