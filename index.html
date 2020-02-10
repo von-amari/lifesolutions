@@ -22,10 +22,11 @@
    
 <!--Bootstrap Navigation Bar -->
 <header>
-<div id="navbar" class="navbar navbar-expand-lg navbar-light navbar-toggleable-md" data-toggle="collapse" data-target="#navbarSupportedContent">
-    <a class="navbar-brand" href="#">
+  <img id="logo" class="img-fluid" src="images/logo.png" width="300" height="80">
+<div id="header" class="header navbar navbar-expand-lg navbar-light navbar-toggleable-md" data-toggle="collapse" data-target="#navbarSupportedContent">
+   <!--  <a class="navbar-brand" href="#">
         <img id="logo" src="images/logo.png" width="300" height="80" alt="">
-    </a>
+    </a> -->
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -60,7 +61,7 @@
 
  <!--Body Content-->
 <div id="top" class="container-fluid" >
-  <h1>Allow Us to Partner With You.</h1>
+  <h2>Allow Us to Partner With You.</h2>
     <p>We at Life Solutions believe in 
 HEALING PARTNERSHIPS rather than the traditional 
 therapist/client relationship. Through building trust, 
@@ -179,22 +180,42 @@ inquiry, together, we discover where you really are.</p>
 
 
 
-if (document.documentElement.clientWidth > 900) {
+// if (document.documentElement.clientWidth > 900) {
   // scripts
- window.onscroll = function() {scrollFunction()};
+//  window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementById("navbar").style.padding = "0px 0px";
-    document.getElementById("logo").style.fontSize = "25px";
+// function scrollFunction() {
+//   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    
+//     document.getElementById("header").style.padding = "0px 0px";
+//     document.getElementById("logo").style.fontSize = "25px";
+//   } else {
+    
+//     document.getElementById("header").style.padding = "15px 15px";
+//     document.getElementById("logo").style.fontSize = "35px";
+//   }
+// }
+// /*Add your javascript for screens wider than or equal to 768 here*/
+// }
+if (document.documentElement.clientWidth < 900){
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("header");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
   } else {
-    document.getElementById("navbar").style.padding = "15px 15px";
-    document.getElementById("logo").style.fontSize = "35px";
+    header.classList.remove("sticky");
   }
 }
-/*Add your javascript for screens wider than or equal to 768 here*/
 }
-
 
 
     </script>
