@@ -18,22 +18,26 @@ p,li {
 	line-height: 2;
 }
 
+.contact-page-img{
+	margin-top: 10%;
+}
+
 @media (min-width: 280px){
-	/* The sticky class is added to the header with JS when it reaches its scroll position */
-.sticky {
+/*	/* The sticky class is added to the header with JS when it reaches its scroll position */
+/*.sticky {
   position: fixed;
   top: 0;
   width: 100%;
   transition: 1s;
-}
+}*/
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) 
 .sticky + .content {
   padding-top: 102px;
-}
+}*/*/
 #logo{
-	width: 80%;
-	height: 80%;
+	width: 75%;
+	height: 75%;
 	display: block;
 	margin: 0 auto;
 }
@@ -42,7 +46,7 @@ p,li {
 	background-color: #f9f9f9;
     overflow: hidden;
  	padding: 2% 2%; /* Large padding which will shrink on scroll (using JS) */
-  	 /* Adds a transition effect when the padding is decreased */
+  	position: fixed;/* Adds a transition effect when the padding is decreased */
  	width: 100%;
   	top: 0; /* At the top */
   	z-index: 99;
@@ -60,17 +64,17 @@ p,li {
 	text-align: center;
 	margin: auto;
 }
-.img-fluid.bg.lake {
+.img-fluid.bg.top {
 	width: 100%;
 	position: relative;
-	margin: 0% auto;
+	margin: 50% auto 0;
 	transition: 0.7s;
 }
 .jumbotron {
 	position: relative;
 	width: 55%;
 	padding: 5%;
-	margin: -40% auto 0% auto;
+	margin: -42% auto 0% auto;
 	background: none;
 	text-align: center;
 }
@@ -99,12 +103,12 @@ p,li {
 	width: 75%;
 	text-align: center;
 }	
-#top.container-fluid h1{
+#top.container-fluid h2{
 	font-size: 1.7rem;
 	margin-bottom: 10%;
 }
 
-.col-lg-4{
+.col-lg-4.home{
 	text-align: center;
 	width: 75%;
 	margin: 0% auto 10%;
@@ -152,6 +156,16 @@ p,li {
 	text-shadow: 1px 1px 2px black;
 	color: #4e6d2e;
 }
+.card.contact{
+	background-color: #909a8f;
+	margin: 10% auto;
+	color: #fff;
+}
+ #map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
 .footer{
 	position: relative;
 	margin: auto;
@@ -330,7 +344,7 @@ p,li {
 	margin-top: 10%;
 }
 .psychology-today {
-	width: 60%;
+	width: 65%;
 }
 .jumbotron h1 {
 	font-size: 2rem;
@@ -363,7 +377,7 @@ p,li {
 	margin-top: 7%;
 }
 .psychology-today {
-	width: 50%;
+	width: 75%;
 }
 .fab{
 	font-size: 2.5rem;
@@ -375,7 +389,7 @@ p,li {
 #logo {
 	width: 300px;
 	height:80px;
-	right: 30px;
+	margin: 0 auto;
 	
 }
 .navbar-toggler{
@@ -411,7 +425,8 @@ p,li {
 }
 
 .psychology-today {
-	width: 45%;
+	width: 200px;
+	height: 54px;
 }
 }
 
@@ -450,9 +465,6 @@ p,li {
 	font-size: 1.7rem;
 	margin: 0% auto 10%;
 }
-.psychology-today {
-	width: 45%;
-}
 }
 @media (min-width: 624px) {
 .jumbotron h1 {
@@ -474,6 +486,12 @@ p,li {
 #top.container-fluid{
 	margin: 10% auto 10% auto;
 	
+}
+.psychology-today {
+	width: 200px;
+	height: 54px;
+	display: inline;
+	margin: 0 0 10px;
 }
 }
 @media (min-width: 852px){
@@ -513,4 +531,13 @@ ul.navbar-nav.ml-auto{
 	font-size: 2rem;
 	margin-bottom: 10%;
 }
+}
+
+
+/*Contact*/
+@media (min-width: 280px){
+.jumbotron.contact h1{
+	margin-top: 25%;
+}
+
 }
