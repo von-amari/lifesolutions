@@ -15,7 +15,7 @@
     <!-- Font Awesome -->
 <script src="https://kit.fontawesome.com/e09d4ac963.js" crossorigin="anonymous"></script>
     <!--CSS style sheet-->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 <body>
@@ -23,11 +23,11 @@
 <!--Bootstrap Navigation Bar -->
 <header>
  <!--  <img id="logo" class="img-fluid" src="images/logo.png" width="300" height="80"> -->
-<div id="navbar" class=" navbar navbar-expand-lg navbar-light navbar-toggleable-lg" data-toggle="collapse" data-target="#navbarSupportedContent">
+<nav id="navbar" class=" navbar navbar-expand-lg navbar-light navbar-toggleable-lg" data-toggle="collapse" data-target="#navbarSupportedContent">
     <a class="navbar-brand" href="#">
         <img id="logo" src="images/logo.png" width="300" height="80" alt="">
     </a>
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <button id="toggler"class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -52,7 +52,7 @@
 
  
 <!--Bootstrap Jumbotron-->
-<div class="jumbotron">
+<div class="jumbotron home">
   <h1 class="">Start Your Journey Today.</h1>
   
   <a class="btn btn-lg" href="#" role="button">Schedule An Appointment</a>
@@ -159,8 +159,9 @@ inquiry, together, we discover where you really are.</p>
     </div>
 
 
-<!-- footer -->
-<footer class="footer mt-auto mx-auto py-3">
+<!-- footer <!-- mt-auto -->
+
+<footer class="footer  mx-auto">
   <div class="container">
     <span class="text-muted">  <img src="images/today.png" class="psychology-today img-footer" alt="Psychology Today Verified">
       <i class="fab fa-twitter fa-5x img-footer"></i>
@@ -181,12 +182,15 @@ inquiry, together, we discover where you really are.</p>
 function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     
-    document.getElementById("navbar").style.padding = "0px 0px";
+    document.getElementById("navbar").style.padding="0";
+    document.getElementById("navbar").style.margin="0 auto";
+    document.getElementById("navbar").style.display="block";
     document.getElementById("logo").style.display = "none";
   } else {
     
-    document.getElementById("navbar").style.padding = "5px 5px";
+    document.getElementById("navbar").style.padding = "0px 0px 0px 0";
     document.getElementById("logo").style.display = "inline";
+
   }
 }
 /*Add your javascript for screens wider than or equal to 768 here*/
