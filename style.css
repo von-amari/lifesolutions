@@ -44,9 +44,6 @@ ul {
   	top: 0; /* At the top */
   	z-index: 99;
  }
-/*.navbar-toggler{
-	margin: auto;
-}*/
 .nav-item {
 	padding: 0 10%
 	font-size: 1rem;
@@ -163,16 +160,7 @@ ul {
 	margin: 0% auto 10%;
 }
 
-.parallax2{
-	background-image: url("bison.jpg");
-	height: 250px;
-	max-width: 100%; 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 150%;
-}
+
 .container-fluid.home{
 	text-align: center;
 	height:500px;
@@ -429,13 +417,6 @@ button.btn{
 }
 @media (min-width: 508px){
 
-/*.navbar-toggler{
-	position: fixed;
-	top:20px;
-	right: 20px;
-	background-color: #f9f9f9;
-	display: block;
-}*/
 #navbar {
 	position:fixed;
 	padding: 0px 0;
@@ -464,6 +445,9 @@ button.btn{
 	margin: 15% auto 10%;
 }
 
+#top.container-fluid.services{
+	margin: 20% auto;
+}
 .psychology-today {
 	width: 200px;
 	height: 54px;
@@ -497,7 +481,7 @@ button.btn{
 }
 #top.container-fluid{
 	position: relative;
-	margin: 15% auto 10% auto;
+	margin: 20% auto 10% auto;
 	width: 75%;
 	text-align: center;
 }
@@ -531,25 +515,8 @@ button.btn{
 	margin: 0 0 10px;
 }
 }
-@media (min-width: 800px){
-#bottom.container-fluid{
-	padding-top: 2%;
-	margin-top: -50%;
-	text-align: center;
-	width: 75%;
-	z-index: 99;
-}
-/*footer{
-	display: block;
-	background-color: #f9f9f9;
-	padding: 0;
-	min-height: 100%;
-	width: 100%;
-	padding: 5% 0 0 0;
-	bottom:0;
-
+/*@media (min-width: 800px){
 }*/
-}
 @media (min-width: 852px){
 
 .jumbotron h1 {
@@ -558,6 +525,27 @@ button.btn{
 #top.container-fluid{
 	margin: 10% auto 10% auto;
 	
+}
+#bottom.container-fluid{
+	padding-top: 2%;
+	margin-top: -45%;
+	text-align: center;
+	width: 75%;
+	
+}
+.bottom-img-bison{
+	z-index: -1;
+}
+#bottom.container-fluid.home p{
+	color: #fff;
+	text-shadow: 1px 1px 2px black;
+	font-size: 2.1rem;
+	line-height:1.5;
+	font-family: "Bilbo", sans-serif;
+}
+#bottom.container-fluid.home h2 {
+	text-shadow: 2px 2px 3px black;
+	color: #4e6d2e;
 }
 }
 
