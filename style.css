@@ -67,7 +67,7 @@ ul {
 	position: relative;
 	width: 55%;
 	padding: 5%;
-	margin: -42% auto 0% auto;
+	margin: -5% auto 0% auto;
 	background: none;
 	text-align: center;
 }
@@ -93,7 +93,7 @@ ul {
 
 #top.container-fluid{
 	position: relative;
-	margin: 10% auto 20% auto;
+	margin: 10% auto 5% auto;
 	width: 75%;
 	text-align: center;
 }	
@@ -160,30 +160,44 @@ ul {
 	margin: 0% auto 10%;
 }
 
-
-.container-fluid.home{
+.bottom-img-bison{
+	width:100%;
+	margin: auto;
+	position: relative;
+	height: auto;
+}
+#bottom.container-fluid.home{
 	text-align: center;
-	height:500px;
+	/*height:500px;*/
 	padding:0;
-	margin: 0 auto;
+	margin: 10% auto;
 	width: 75%;
 }
 #bottom.container-fluid.home p{
 	color: #909a8f;
 	text-shadow: none;
-	font-size: 2rem;
-	line-height:2;
+	font-size: 1.7rem;
+	line-height:1.5;
 	font-family: "Bilbo", sans-serif;
 }
 #bottom.container-fluid.home h2 {
 	/*text-shadow: 1px 1px 2px black;*/
 	color: #4e6d2e;
 }
+.container.contact-form{
+	display: inline;
+	margin: 0 auto;
+}
+form.col-lg-6{
+	width: 75%;
+	margin: 2% auto ;
+}
 .card.contact{
 	background-color:  #fff ;
 	margin: 10% auto;
 	color: #909a8f;
 	text-align: center;
+	width: 100%;
 }
 .card.contact h5{
 	font-variant: small-caps;
@@ -192,10 +206,10 @@ ul {
 	width: 75%;
 	margin: 5% auto;
 }
-button.btn{
+.contact-button.btn{
 	display:inline;
-    margin-top: 5%;
-    margin-left: 35%;
+    
+    margin: 10% auto;
 	}
 .about-bottom-image {
 	width: 75%;
@@ -203,13 +217,20 @@ button.btn{
 
 .footer{
 	position: relative;
-	margin: 10% auto;
+	margin: 5% auto;
 	text-align: center;
+	background-color: #909a8f;
+
+}
+.footer p{
+	color: #fff;
+	font-variant: small-caps;
 }
 
 .fab{
 	font-size: 2rem;
 	padding: 5%;
+	color: #fff;
 }
 .psychology-today {
 	width: 50%;
