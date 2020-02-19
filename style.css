@@ -448,6 +448,11 @@ form.col-lg-6{
 	padding: 5%;
 }
 }
+@media (min-width: 486px){
+	.jumbotron h1{
+	padding-bottom: 0%;
+	margin: 0;
+}
 @media (min-width: 508px){
 
 #navbar {
