@@ -406,12 +406,11 @@ form.col-lg-6{
 .jumbotron{
 	margin: -35% auto 0% auto;
 } 
+.jumbotron.home{
+	margin: -40% auto 0% auto;
+} 
 .btn.btn-lg {
 	margin-top: 10%;
-}
-/*.card.contact {
-	width: 75%;
-}*/
 }
 
 /*Media width 413 */
